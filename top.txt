@@ -1,0 +1,66 @@
+Processes: 530 total, 4 running, 526 sleeping, 2708 threads 
+2021/03/10 17:57:14
+Load Avg: 2.19, 2.15, 2.30 
+CPU usage: 8.39% user, 6.51% sys, 85.8% idle 
+SharedLibs: 314M resident, 51M data, 23M linkedit.
+MemRegions: 268624 total, 6386M resident, 171M private, 2695M shared.
+PhysMem: 28G used (3663M wired), 4330M unused.
+VM: 3246G vsize, 2000M framework vsize, 25066318(0) swapins, 27417205(0) swapouts.
+Networks: packets: 66528237/66G in, 65195068/13G out.
+Disks: 16287786/388G read, 17692509/260G written.
+
+PID    COMMAND          %CPU TIME     #TH #WQ #PORTS MEM   PURG CMPRS PGRP  PPID  STATE    BOOSTS   %CPU_ME %CPU_OTHRS UID FAULTS COW  MSGSENT MSGRECV SYSBSD  SYSMACH  CSW     PAGEINS IDLEW  POWER INSTRS CYCLES USER  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD
+99868  MTLCompilerServi 0.0  00:00.03 2   1   21     5640K 0B   5636K 99868 1     sleeping *0[2]    0.00000 0.00000    501 3710   578  132     44      514     304      61      0       3      0.0   0      0      chris N/A    N/A   N/A   N/A   N/A   N/A  
+99451  Code Helper (Ren 0.0  00:41.45 15  1   67     22M   0B   11M   99439 99447 sleeping *0[1]    0.00000 0.00000    501 21292  2371 212     88      849134  3134     237250  180     101687 0.0   0      0      chris N/A    N/A   N/A   N/A   N/A   N/A  
+99447  Code Helper (Ren 0.0  00:24.37 23  1   162    50M   0B   12M   99439 99439 sleeping *0[1]    0.00000 0.00000    501 156180 2257 87273   39139   1071560 579406   431578  2698    31911  0.0   0      0      chris N/A    N/A   N/A   N/A   N/A   N/A  
+99444  Code Helper      0.0  00:01.39 7   1   95     15M   0B   7996K 99439 99439 sleeping *0[3]    0.00000 0.00000    501 13568  1597 12819   8241    66496   24473    21253   794     1925   0.0   0      0      chris N/A    N/A   N/A   N/A   N/A   N/A  
+99443  VTDecoderXPCServ 0.0  00:00.09 2   1   58     13M   0B   13M   99443 1     sleeping *0[6]    0.00000 0.00000    501 6958   177  4545    1877    1238    3220     523     0       11     0.0   0      0      chris N/A    N/A   N/A   N/A   N/A   N/A  
+99442  Code Helper (GPU 0.0  00:23.37 8   1   228    104M  0B   27M   99439 99439 sleeping *0[3]    0.00000 0.00000    501 163523 2943 435758  207612  194972  661277   180157  1129    9322   0.0   0      0      chris N/A    N/A   N/A   N/A   N/A   N/A  
+99441  chrome_crashpad_ 0.0  00:00.06 4   1   27     1344K 0B   868K  99440 1     sleeping *0[1]    0.00000 0.00000    501 1696   162  43      18      2302    163      1193    50      26     0.0   0      0      chris N/A    N/A   N/A   N/A   N/A   N/A  
+99439  Electron         0.0  03:30.85 43  1   545    190M  648K 43M   99439 1     sleeping *0[1118] 0.00000 0.00000    501 790697 3168 9769748 1105715 2581252 16670361 8547611 1938    72176  0.0   0      0      chris N/A    N/A   N/A   N/A   N/A   N/A  
+99261  pidinfo          0.0  00:00.02 2   1   20     1192K 0B   300K  99261 1     sleeping *0[6]    0.00000 0.00000    501 1268   119  307     101     1480    367      362     5       7      0.0   0      0      chris N/A    N/A   N/A   N/A   N/A   N/A  
+99238  iTermServer-3.4. 0.0  00:00.01 1   0   21     976K  0B   532K  99235 99235 sleeping *0[1]    0.00000 0.00000    501 1211   348  73      28      5342    147      28      9       0      0.0   0      0      chris N/A    N/A   N/A   N/A   N/A   N/A  
+Processes: 531 total, 4 running, 527 sleeping, 2715 threads 
+2021/03/10 17:57:15
+Load Avg: 2.19, 2.15, 2.30 
+CPU usage: 8.20% user, 2.71% sys, 89.7% idle 
+SharedLibs: 314M resident, 51M data, 23M linkedit.
+MemRegions: 268728 total, 6388M resident, 171M private, 2695M shared.
+PhysMem: 28G used (3659M wired), 4331M unused.
+VM: 3251G vsize, 2001M framework vsize, 25066318(0) swapins, 27417205(0) swapouts.
+Networks: packets: 66528240/66G in, 65195071/13G out.
+Disks: 16287794/388G read, 17692513/260G written.
+
+PID    COMMAND          %CPU TIME     #TH    #WQ #PORTS MEM    PURG   CMPRS PGRP  PPID  STATE    BOOSTS   %CPU_ME %CPU_OTHRS UID FAULTS     COW    MSGSENT     MSGRECV     SYSBSD     SYSMACH     CSW         PAGEINS IDLEW      POWER INSTRS     CYCLES     USER               #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD
+17447  obs              77.7 02:33:44 53/1   2   591    410M   280K   0B    17447 1     running  *0[724]  0.21603 0.00431    501 390062863+ 3100   78626985+   29155322+   50609391+  78353431+   57422633+   7345    1370992+   79.9  6194971057 3921180760 chris              N/A    N/A   N/A   N/A   N/A   N/A  
+217    coreaudiod       12.6 04:48:06 11     3   896    43M    0B     16M   217   1     sleeping *0[1]    0.00000 0.00000    202 1318778    334    54736961+   9223595+    80044099+  78269219+   62152150+   8377    10090248+  14.8  245256751  649825801  _coreaudiod        N/A    N/A   N/A   N/A   N/A   N/A  
+17452  IriunAssistant   10.2 43:27.28 7      1   81     26M    2240K  0B    17452 1     sleeping *0[1]    0.00000 0.00000    0   278812983+ 265    475563+     90          8257503+   3325687+    7812980+    61      715138+    11.3  891222878  502903555  root               N/A    N/A   N/A   N/A   N/A   N/A  
+35674  top              9.2  00:00.64 1/1    0   26+    5188K+ 0B     0B    35674 19727 running  *0[1]    0.03793 0.00000    0   2761+      113+   607819+     303901+     4454+      312632+     138+        0       0          9.2   375531713  465159306  root               N/A    N/A   N/A   N/A   N/A   N/A  
+0      kernel_task      8.9  06:34:42 330/17 0   0      63M-   0B     0B    0     0     running   0[0]    0.00000 0.00000    0   219151     0      2605734556+ 2011457775+ 0          0           2017922349+ 0       140451673+ 0.0   235952870  1097329368 root               N/A    N/A   N/A   N/A   N/A   N/A  
+247    WindowServer     8.2  10:48:12 9/1    3   2439-  878M   1728K+ 183M  247   1     running  *0[1]    0.00628 0.25263    88  124224446+ 657468 1884912455+ 603621404+  277833017+ 1968603443+ 697175959+  18195   8480290+   10.0  190217330  414729800  _windowserver      N/A    N/A   N/A   N/A   N/A   N/A  
+340    VDCAssistant     1.1  07:50.55 4      1   120    30M    0B     13M   340   1     sleeping *0[1]    0.00000 0.00000    262 53881      235    18488181+   8841092+    3003631+   11874480+   2728313+    749     241        1.1   17123570   58651482   _cmiodalassistants N/A    N/A   N/A   N/A   N/A   N/A  
+92978  adb              0.7  11:26.05 4      0   47     1528K  0B     600K  92978 1     sleeping *0[1]    0.00000 0.00000    501 2154       129    75848334+   31691370+   402930+    52343472+   1988097+    349     531904+    1.0   36946073   43464961   chris              N/A    N/A   N/A   N/A   N/A   N/A  
+92975  IriunWebcam      0.2  04:11.27 21     1   245    40M    0B     23M   92975 1     sleeping *0[336]  0.00000 0.00000    501 97086      9714   116849      51260       256725+    22786041+   1942199+    1501    798444+    0.3   3366323    13269843   chris              N/A    N/A   N/A   N/A   N/A   N/A  
+167    bluetoothd       0.2  14:10.87 5      3   214    16M+   0B     7460K 167   1     sleeping *0[1]    0.02201 0.00000    0   243765+    268    20206971+   12465473+   5955893+   24199830+   5450196+    7416    31959      0.2   8610052    14060636   root               N/A    N/A   N/A   N/A   N/A   N/A  
+Processes: 532 total, 4 running, 528 sleeping, 2720 threads 
+2021/03/10 17:57:17
+Load Avg: 2.19, 2.15, 2.30 
+CPU usage: 8.16% user, 2.81% sys, 89.2% idle 
+SharedLibs: 314M resident, 51M data, 23M linkedit.
+MemRegions: 268828 total, 6391M resident, 172M private, 2695M shared.
+PhysMem: 28G used (3660M wired), 4322M unused.
+VM: 3256G vsize, 2001M framework vsize, 25066318(0) swapins, 27417205(0) swapouts.
+Networks: packets: 66528240/66G in, 65195071/13G out.
+Disks: 16287799/388G read, 17692514/260G written.
+
+PID    COMMAND          %CPU  TIME     #TH    #WQ #PORTS MEM    PURG   CMPRS PGRP  PPID  STATE    BOOSTS   %CPU_ME %CPU_OTHRS UID FAULTS     COW    MSGSENT     MSGRECV     SYSBSD     SYSMACH     CSW         PAGEINS IDLEW      POWER INSTRS     CYCLES     USER               #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD
+17447  obs              102.2 02:33:45 53     2   591    410M   280K   0B    17447 1     sleeping *0[724]  0.29272 0.00752    501 390088037+ 3100   78631958+   29157178+   50617373+  78358239+   57430597+   7345    1371063+   105.2 5815281991 3674816612 chris              N/A    N/A   N/A   N/A   N/A   N/A  
+17452  IriunAssistant   13.8  43:27.44 7/1    1   81     27M+   2148K- 0B    17452 1     running  *0[1]    0.00000 0.00000    0   278831742+ 265    475594+     90          8258081+   3325906+    7813595+    61      715171+    15.2  838449717  481916522  root               N/A    N/A   N/A   N/A   N/A   N/A  
+217    coreaudiod       13.6  04:48:07 11/1   3   896    43M    0B     16M   217   1     running  *0[1]    0.00000 0.00000    202 1318778    334    54737267+   9223601+    80044707+  78269728+   62152756+   8377    10090323+  16.8  179981324  478273466  _coreaudiod        N/A    N/A   N/A   N/A   N/A   N/A  
+35674  top              12.9  00:00.79 1/1    0   27+    5204K+ 0B     0B    35674 19727 running  *0[1]    0.00000 0.00000    0   3298+      113    622314+     311147+     6613+      324193+     155+        0       0          12.9  372928552  461408437  root               N/A    N/A   N/A   N/A   N/A   N/A  
+0      kernel_task      9.5   06:34:42 330/16 0   0      63M+   0B     0B    0     0     running   0[0]    0.00000 0.00000    0   219151     0      2605747049+ 2011469945+ 0          0           2017935712+ 0       140452010+ 0.0   165503950  761344448  root               N/A    N/A   N/A   N/A   N/A   N/A  
+247    WindowServer     8.3   10:48:12 8      3   2436-  878M-  1792K+ 183M  247   1     sleeping *0[1]    0.00752 0.29537    88  124224451+ 657468 1884914582+ 603622312+  277833636+ 1968606163+ 697176947+  18195   8480350+   10.9  123094863  288866354  _windowserver      N/A    N/A   N/A   N/A   N/A   N/A  
+92978  adb              1.2   11:26.06 4      0   47     1528K  0B     600K  92978 1     sleeping *0[1]    0.00000 0.00000    501 2154       129    75850310+   31692195+   402932+    52344832+   1988140+    349     531913+    1.6   37225654   49152231   chris              N/A    N/A   N/A   N/A   N/A   N/A  
+340    VDCAssistant     1.1   07:50.56 4      1   120    30M    0B     13M   340   1     sleeping *0[1]    0.00000 0.00000    262 53881      235    18488684+   8841331+    3003707+   11874797+   2728386+    749     241        1.1   12899823   44202506   _cmiodalassistants N/A    N/A   N/A   N/A   N/A   N/A  
+92975  IriunWebcam      0.3   04:11.28 21     1   245    40M    0B     23M   92975 1     sleeping *0[336]  0.00000 0.00000    501 97086      9714   116849      51260       256727+    22786601+   1942252+    1501    798451+    0.6   3198968    13283167   chris              N/A    N/A   N/A   N/A   N/A   N/A  
+134    mds              0.2   36:42.94 7      4   551+   236M+  0B     169M  134   1     sleeping *0[1]    2.60196 0.12316    0   14445162+  4496   9224982+    2887995+    101543798+ 10461650+   27067571+   7975    391105     0.2   5254598    10077791   root               N/A    N/A   N/A   N/A   N/A   N/A  
