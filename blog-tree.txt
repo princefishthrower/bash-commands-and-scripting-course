@@ -1,0 +1,280 @@
+.
+├── LICENSE
+├── README.md
+├── gatsby-browser.js
+├── gatsby-config.js
+├── gatsby-node.js
+├── package-lock.json
+├── package.json
+├── src
+│   ├── UNFINISHED_DRAFT_POSTS
+│   │   ├── README.md
+│   │   ├── data-challenge-analysis-of-reddit-users
+│   │   │   └── index.md
+│   │   ├── detailed-look-at-bdc-in-abap
+│   │   │   └── index.md
+│   │   ├── full-abap-push-and-message-channel-tutorial-with-working-code-examples
+│   │   │   └── index.md
+│   │   ├── towards-code-and-folder-organization-of-nodejs-server-applications
+│   │   │   └── index.md
+│   │   └── using-a-fluent-interface-to-ease-the-pain-of-soap-calls
+│   │       └── index.md
+│   ├── components
+│   │   ├── LinkPreview.js
+│   │   ├── Sparkles.js
+│   │   ├── bio.js
+│   │   ├── code-copy-button
+│   │   │   ├── copy-button.js
+│   │   │   └── pre.js
+│   │   ├── confetti-container.js
+│   │   ├── email-form.js
+│   │   ├── layout.js
+│   │   ├── paginator.js
+│   │   ├── reveal-components
+│   │   │   └── Revealer.jsx
+│   │   ├── seo.js
+│   │   └── switcher.js
+│   ├── constants
+│   │   ├── constants.js
+│   │   └── constants.json
+│   ├── content
+│   │   ├── assets
+│   │   │   ├── blog-icon.png
+│   │   │   └── profile-pic.jpg
+│   │   └── blog
+│   │       ├── a-bit-of-housekeeping-the-subscription-form-is-back
+│   │       │   └── index.md
+│   │       ├── a-detailed-tutorial-shopify-storefront-apireact-redux
+│   │       │   └── index.md
+│   │       ├── a-single-bash-command-to-simultaneously-run-and-compile-a-csharp-file
+│   │       │   └── index.md
+│   │       ├── a-toast-to-full-stack-developers
+│   │       │   └── index.md
+│   │       ├── an-npm-christmas-easter-egg
+│   │       │   ├── index.md
+│   │       │   └── npm-christmas.png
+│   │       ├── auth0-expo-and-react-native-authorization-code-grant-flow-with-pkce
+│   │       │   └── index.md
+│   │       ├── back-by-popular-demand-react-redux-shopify-typescript-boilerplate
+│   │       │   └── index.md
+│   │       ├── calculating-activity-amounts-for-process-and-production-orders-with-sap-abap
+│   │       │   ├── co11n-1.jpg
+│   │       │   ├── co11n-2.jpg
+│   │       │   ├── error-test-frame.jpg
+│   │       │   ├── form-program.png
+│   │       │   ├── function-breakpoint.png
+│   │       │   ├── function-found.png
+│   │       │   ├── index.md
+│   │       │   ├── perl
+│   │       │   ├── raw.html
+│   │       │   ├── remove_lines.pl
+│   │       │   ├── return.png
+│   │       │   └── test-formula.jpg
+│   │       ├── colors-for-sap-web-ide
+│   │       │   ├── index.md
+│   │       │   ├── sapwebidecolors.png
+│   │       │   └── unforgivable.gif
+│   │       ├── creating-front-page-posts-on-subbreddit-and-how-i-created-two-of-them-for-wallstreetbets
+│   │       │   ├── deargod.png
+│   │       │   ├── index.md
+│   │       │   ├── robinhood_parody.png
+│   │       │   ├── rowrowrow.png
+│   │       │   └── sandp_parody.png
+│   │       ├── data-analysis-and-pixel-art-of-towns-and-cities-in-pokemon
+│   │       │   ├── azalea.png
+│   │       │   ├── blackthorn.png
+│   │       │   ├── celadon.png
+│   │       │   ├── cerulean.png
+│   │       │   ├── cherrygrove.png
+│   │       │   ├── cinnabar.png
+│   │       │   ├── ecruteak.png
+│   │       │   ├── fuchsia.png
+│   │       │   ├── goldenrod.png
+│   │       │   ├── index.md
+│   │       │   ├── lavender.png
+│   │       │   ├── mahogany.png
+│   │       │   ├── newbark.png
+│   │       │   ├── olivine.png
+│   │       │   ├── pallet.png
+│   │       │   ├── pewter.png
+│   │       │   ├── saffron.png
+│   │       │   ├── vermilion.png
+│   │       │   ├── violet.png
+│   │       │   └── viridian.png
+│   │       ├── data-challenge-a-pbr-bottle-cap-card-deck
+│   │       │   └── index.md
+│   │       ├── data-challenge-rendering-all-32767-invaders
+│   │       │   ├── circles.gif
+│   │       │   ├── index.md
+│   │       │   ├── invader.svg
+│   │       │   └── invader_black.svg
+│   │       ├── debugging-abap-with-a-sap-shortcut
+│   │       │   └── index.md
+│   │       ├── dotnet-nginx-kestrel-and-react-spa-with-a-reverse-proxy-on-linux-ubuntu
+│   │       │   └── index.md
+│   │       ├── dropdowns-in-readmes
+│   │       │   └── index.md
+│   │       ├── dynamically-assigning-variables-both-named-and-structured-in-sap-abap
+│   │       │   └── index.js
+│   │       ├── error-and-failure-free-connecting-zapier-and-postgresql
+│   │       │   └── index.md
+│   │       ├── extending-react-types-for-children-as-a-function
+│   │       │   └── index.md
+│   │       ├── filtering-json-patch-in-c-sharp
+│   │       │   └── index.md
+│   │       ├── final-say-bitcoin
+│   │       │   └── index.md
+│   │       ├── fully-automating-chrisfrew-in-productions-part-1-of-roadmap-and-links-to-process
+│   │       │   ├── full-stack-map.svg
+│   │       │   ├── index.md
+│   │       │   └── passengers-ship.gif
+│   │       ├── fully-automating-chrisfrew-in-productions-part-2-of-building-a-node-js-server-monitor
+│   │       │   └── index.md
+│   │       ├── fully-automating-chrisfrew-in-productions-part-3-of-github-webhook-monitor
+│   │       │   ├── index.md
+│   │       │   └── namecheap_config.png
+│   │       ├── fully-automating-chrisfrew-in-productions-part-4-of-building-a-slack-bot
+│   │       │   └── index.md
+│   │       ├── getting-started-in-2018-with-magento-apache-and-php
+│   │       │   ├── index.md
+│   │       │   └── magento-account-keys.png
+│   │       ├── goals-for-2020
+│   │       │   └── index.md
+│   │       ├── goals-for-2021
+│   │       │   └── index.md
+│   │       ├── hello-world
+│   │       │   └── index.md
+│   │       ├── hot-linking-to-lines-in-github
+│   │       │   └── index.md
+│   │       ├── how-to-be-an-american-living-in-austria-and-working-in-liechtenstein
+│   │       │   └── index.md
+│   │       ├── how-to-convert-raw16-to-char22-material-ids-in-sap-ewm-and-vice-versa
+│   │       │   └── index.js
+│   │       ├── i-quit-learning-programming-and-being-a-creative
+│   │       │   └── index.md
+│   │       ├── i-set-aside-1000-to-learn-options-trading
+│   │       │   └── index.md
+│   │       ├── interesting-monopoly-probabilities-to-defeat-your-relatives
+│   │       │   ├── chart.svg
+│   │       │   ├── data.csv
+│   │       │   ├── gotadeal.gif
+│   │       │   ├── index.md
+│   │       │   └── monopolies.svg
+│   │       ├── introducing-chrisfrewin-productions
+│   │       │   └── index.md
+│   │       ├── its-my-blogs-birthday
+│   │       │   └── index.md
+│   │       ├── jump-from-SAPUI5-to-transactions-in-web-gui-with-batch-input
+│   │       │   └── index.md
+│   │       ├── jump-to-web-gui-using-sapui5-or-openui5
+│   │       │   └── index.md
+│   │       ├── laptop-stickers
+│   │       │   ├── index.md
+│   │       │   ├── laptopstickers1.jpg
+│   │       │   └── laptopstickers2.jpg
+│   │       ├── launching-five-products-this-year
+│   │       │   └── index.md
+│   │       ├── led-zeppelin-data-analysis-for-lyric-generation-and-inspiration
+│   │       │   ├── index.md
+│   │       │   ├── most_common.png
+│   │       │   └── most_common_lower.png
+│   │       ├── magento-2-geo-ip-redirect-using-ipstack
+│   │       │   └── index.md
+│   │       ├── market-news-feed
+│   │       │   ├── index.js
+│   │       │   ├── reactTags.css
+│   │       │   └── sandp500.json
+│   │       ├── mastering-bitbucket-pipelines-for-ci-and-cd
+│   │       │   ├── error.png
+│   │       │   ├── index.mdx
+│   │       │   ├── real_boy.gif
+│   │       │   └── step_output.png
+│   │       ├── more-thoughts-on-early-retirement-financial-independence-and-making-a-living
+│   │       │   └── index.md
+│   │       ├── my-first-animated-blog-post
+│   │       │   ├── index.mdx
+│   │       │   └── sign.png
+│   │       ├── new-data-tag
+│   │       │   └── index.md
+│   │       ├── nlp-champs-is-dead-long-live-nlp-champs
+│   │       │   ├── index.md
+│   │       │   └── siri_lol.png
+│   │       ├── obligatory-goals-for-2019-post
+│   │       │   └── index.md
+│   │       ├── persist-and-remember-page-scroll-position-with-react-hooks
+│   │       │   └── index.md
+│   │       ├── plug-time-going-full-send-on-teaching-and-content-creation
+│   │       │   └── index.md
+│   │       ├── react-typescript-generic-search-sort-and-filters
+│   │       │   └── index.md
+│   │       ├── saving-images-in-node-js-using-fetch-with-array-buffer-and-buffer
+│   │       │   └── index.md
+│   │       ├── sec-filings
+│   │       │   └── index.js
+│   │       ├── sending-windows-commands-from-sap-abap
+│   │       │   └── index.md
+│   │       ├── sequelize-and-typescript-rest-once-you-orm-you-never-go-back
+│   │       │   └── index.md
+│   │       ├── simple-things-you-can-do-right-now-to-help-environmental-efforts
+│   │       │   ├── index.md
+│   │       │   └── thumbs.gif
+│   │       ├── some-tasty-bash-profile-commands
+│   │       │   └── index.md
+│   │       ├── stats
+│   │       │   └── index.js
+│   │       ├── talk-shop
+│   │       │   └── index.js
+│   │       ├── the-dreaded-referenceerror-window-is-not-defined
+│   │       │   └── index.md
+│   │       ├── the-software-engineers-social-contract
+│   │       │   └── index.md
+│   │       ├── using-google-clouds-text-to-speech-machine-learning-api
+│   │       │   └── index.md
+│   │       ├── want-to-build-this-blog-now-you-can
+│   │       │   └── index.mdx
+│   │       ├── warn-sap-users-of-locked-objects-then-kill-their-session
+│   │       │   ├── TH_POPUP-function-test.png
+│   │       │   ├── TH_POPUP-result.png
+│   │       │   ├── delete-session.png
+│   │       │   ├── index.md
+│   │       │   ├── server-sessions-list.png
+│   │       │   ├── session-id.png
+│   │       │   ├── switch-to-server.png
+│   │       │   └── technical-information.png
+│   │       ├── web-monetization-using-coil-and-uphold-to-combat-the-network-effect
+│   │       │   └── index.md
+│   │       ├── welp-i-did-it-i-quit
+│   │       │   └── index.md
+│   │       └── welp-i-did-it-im-still-a-freelancer
+│   │           └── index.md
+│   ├── context
+│   │   ├── ThemeContext.js
+│   │   └── ThemeProvider.js
+│   ├── fonts
+│   │   └── CooperBlackRegular.ttf
+│   ├── hooks
+│   │   ├── usePrefersReducedMotion.js
+│   │   └── useRandomInterval.js
+│   ├── images
+│   │   ├── icon.svg
+│   │   ├── maskable_icon.png
+│   │   └── monetized_loop.svg
+│   ├── pages
+│   │   └── 404.js
+│   ├── styles
+│   │   ├── global.css
+│   │   └── global.min.css
+│   ├── styles-scss
+│   │   ├── _email_form.scss
+│   │   ├── _footnotes.scss
+│   │   ├── _pagination.scss
+│   │   ├── _switcher.scss
+│   │   └── global.scss
+│   ├── templates
+│   │   ├── blog-post-listing.js
+│   │   └── blog-post.js
+│   └── utils
+│       └── typography.js
+└── wrap-root-element.js
+
+92 directories, 185 files
