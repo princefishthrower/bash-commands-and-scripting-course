@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=sJ8t44Fbnf8&list=PLOX_mQri1cCkTl69-eicUahOPEai7i
 
 The full course is available on a variety of platforms:
 
-Udemy: https://www.udemy.com/course/bash-commands-and-scripting
+Udemy: https://www.udemy.com/course/bash-commands-and-scripting/?referralCode=A4FC7847723F041BE375
 
 Skillshare: https://skl.sh/3rguuOZ
 
